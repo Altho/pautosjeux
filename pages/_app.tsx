@@ -21,7 +21,7 @@ export default function App(props: AppProps) {
     return (
         <>
             <Head>
-                <title>Pau'tos Jeux - Le festival ludique de Pau !</title>
+                <title>Pau&#39;tos Jeux - Le festival ludique de Pau !</title>
                 <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
             </Head>
             <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
