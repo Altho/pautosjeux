@@ -91,8 +91,8 @@ export default function Logo(){
             >
                 Pau&#39;tos Jeux
             </Text>
-            <div className={classes.date}>15 - 16 Avril 2023</div>
-            <div className={classes.slogan}>Le festival ludique de Pau</div>
+            <div className={classes.date}>13 - 14 Avril 2024</div>
+            <div className={classes.slogan}>Le Festival Ludique de Pau</div>
             </div>
             <div className={classes.meeple}></div>
 
