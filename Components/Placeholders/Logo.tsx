@@ -6,13 +6,13 @@ export default function Logo(){
         wrapper: {
             // subscribe to color scheme changes right in your styles
 
-            width: '100%',
-            height: 180,
+            width: '60%',
+            height: 1400,
             position:'absolute',
             display:'flex',
             justifyContent:'center',
             alignItems:'center',
-            top:'50%',
+            top:'100%',
             left:'50%',
             transform:'translate(-50%,-50%)',
             marginLeft: 'auto',
@@ -27,14 +27,15 @@ export default function Logo(){
         meeple: {
             // subscribe to color scheme changes right in your styles
 
-            backgroundImage:'url(/images/meeple.svg)',
+            //backgroundImage:'url(/images/meeple.svg)',
+            backgroundImage:'url(/images/Affiche_2024_finale.png)',
             backgroundRepeat:'no-repeat',
-            height:'400px',
-            width:'400px',
+            height:'1000px',
+            width:'800px',
             position:'absolute',
             zIndex:-1,
-            opacity:0.4,
-            filter:'blur(10px)'
+            opacity:0.6,
+            filter:'blur(0px)'
 
 
         },
@@ -72,6 +73,7 @@ export default function Logo(){
             textAlign:'center',
 
         },
+        
     }));
 
     const { classes } = useStyles();
@@ -86,15 +88,17 @@ export default function Logo(){
                 color="blue"
                 // variant="gradient"
                 // gradient={{ from: 'indigo', to: 'cyan', deg: 45 }}
-                weight={700}
+                weight={800}
                 style={{ fontFamily: 'Marck Script, cursive' }}
             >
-                Pau&#39;tos Jeux
+                {/* Pau&#39;tos Jeux */}
             </Text>
-            <div className={classes.date}>13 - 14 Avril 2024</div>
-            <div className={classes.slogan}>Le Festival Ludique de Pau</div>
+            {/* <div className={classes.date}>14 - 15 Avril 2024</div> */}
+            {/* <div className={classes.slogan}>Le Festival Ludique de Pau</div> */}
             </div>
             <div className={classes.meeple}></div>
+
+            {/* <div className={classes.affiche}></div> */}
 
         </div>
     )
