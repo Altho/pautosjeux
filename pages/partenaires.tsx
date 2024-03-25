@@ -40,12 +40,37 @@ const Partenaires: NextPage  = () => {
     <div style={{ margin: '20px' }}>
       
       <h2> Un grand merci à nos partenaires </h2>
-      <p> Quizz Room </p>
-      <p> Kid Happy </p>
-      <p> Babette Beer House</p>
-      <p> La LudiKavern</p>
-      <p> Idelis </p>
-      <p> Ville de Pau</p>
+      
+      <p><Link href="https://www.quiz-room.com/villes/pau">
+      <a target="_blank" rel="noopener noreferrer"> Quizz Room Pau </a>
+      </Link></p>
+      <p><Link href="https://www.kid-happy.fr/">
+      <a target="_blank" rel="noopener noreferrer"> Kid Happy </a>
+      </Link></p>
+      <p><Link href="https://www.babette-beer-house.fr/">
+      <a target="_blank" rel="noopener noreferrer"> Babette Beer House </a>
+      </Link></p>
+ 
+      <p><Link href="https://laludikavern.com/">
+      <a target="_blank" rel="noopener noreferrer"> La LudiKavern </a>
+      </Link></p>
+
+      <p><Link href="https://pau.laserquest.fr/">
+      <a target="_blank" rel="noopener noreferrer"> Laser Quest Pau Lescar </a>
+      </Link></p>
+
+      <p><Link href="https://www.petitforestier.com/">
+      <a target="_blank" rel="noopener noreferrer"> Le Petit Forestier Lescar </a>
+      </Link></p>
+
+      <p><Link href="https://www.idelis.fr/">
+      <a target="_blank" rel="noopener noreferrer"> Idelis </a>
+      </Link></p>
+
+      <p><Link href="https://www.pau.fr/">
+      <a target="_blank" rel="noopener noreferrer"> Ville de Pau </a>
+      </Link></p>
+
 
       <h2> Et bien sûr, un grand merci aux 150 bénévoles qui nous aident tout au long du week-end !</h2>
 

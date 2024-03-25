@@ -47,14 +47,18 @@ export default function Menu(){
         <nav>
             <ul className={classes.menu}>
                 <li>
+                    <h3>
                     <Link href="/">
                         <a>Accueil</a>
                     </Link>
+                    </h3>
                 </li>
                 <li className="menuItem">
+                    <h3>
                     <Link href="/pautos_jeux">
                         <a>Le Festival Pau&apos;Tos Jeux 2024</a>
                     </Link>
+                    </h3>
                     {/* <div className="subMenu">
                         <ul>
                             <li>
@@ -78,16 +82,24 @@ export default function Menu(){
                     </div> */}
                 </li>
                 <li>
+                    <h3>
                     <Link href="/infos_pratiques">
                         <a>Infos pratiques</a>
                     </Link>
+                    </h3>
                 </li>
                 <li>
+                    <h3>
                     <Link href="/partenaires">
                         <a>Nos partenaires</a>
                     </Link>
+                    </h3>
                 </li>
-                <DarkModeToggle />
+                <li>
+                    <h3>
+                        <DarkModeToggle />
+                    </h3>
+                </li>
                 
             </ul>
         </nav>
