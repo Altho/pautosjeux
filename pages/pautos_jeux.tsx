@@ -3,6 +3,7 @@ import { createStyles } from '@mantine/core';
 import React from 'react';
 import Menu from "../Components/Menu/Menu";
 import Logo from "../Components/Placeholders/Logo";
+import Link from 'next/link';
 
 const useStyles = createStyles((theme, _params) => ({
     wrapper: {
@@ -84,6 +85,9 @@ const PautosJeux: NextPage  = () => {
         <p> Tout au long du week-end, de nombreuses animations (certaines payantes) sont proposées !
             Tournois, escape game, murder party, RING,... il y en aura pour tous les goûts !</p>
         
+        <p><Link href="/animations">
+        <a target="_blank" rel="noopener noreferrer"> Plus d'informations sur les animations ICI </a>
+        </Link></p>
 
     </div>
     </body>

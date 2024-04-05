@@ -63,6 +63,10 @@ const Partenaires: NextPage  = () => {
       <a target="_blank" rel="noopener noreferrer"> Le Petit Forestier Lescar </a>
       </Link></p>
 
+      <p><Link href="https://www.joueclub.fr/magasin/joueclub-lons.html">
+      <a target="_blank" rel="noopener noreferrer"> Joué Club Lons </a>
+      </Link></p>
+
       <p><Link href="https://www.idelis.fr/">
       <a target="_blank" rel="noopener noreferrer"> Idelis </a>
       </Link></p>
