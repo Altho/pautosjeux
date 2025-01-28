@@ -38,10 +38,10 @@ const Animations: NextPage  = () => {
         <Menu />
     </div>
 
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', fontSize:'72' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', fontSize:'72px' }}>
 
         <p>
-        <Link href="https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSd1rNVCCdNAmrT8wjJIArXEDvjOFLIImASEicnZ4Bn2tAVyQg%2Fviewform&e=AT0krE54GGRqyNqfa9BKupdD0qBvFTkssJKu3B3lS1802VhWBvkSQIvJ0OSBta-ISEjgSNgfmfpsFinZ5WYz2rGLjXMKSi5Bu7h4xw8iFLgaOE8cZpztog">
+        <Link href="https://www.instagram.com/festivaljeupau/?hl=fr">
         <a target="_blank" rel="noopener noreferrer"> <b> Inscriptions ICI</b> </a>
         </Link>
         </p>
