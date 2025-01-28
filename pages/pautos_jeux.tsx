@@ -85,11 +85,6 @@ const PautosJeux: NextPage  = () => {
         <p> Tout au long du week-end, de nombreuses animations (certaines payantes) sont proposées !
             Tournois, escape game, murder party, RING,... il y en aura pour tous les goûts !</p>
 
-        
-        <Link href="/animations">
-        <a>Plus d'infos</a>
-        </Link>
-
     </div>
     </body>
 
