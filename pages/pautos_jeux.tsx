@@ -86,7 +86,7 @@ const PautosJeux: NextPage  = () => {
             Tournois, escape game, murder party, RING,... il y en aura pour tous les goûts !</p>
 
         <h3>
-        <Link href="/animations">
+        //<Link href="/animations">
         <a>Plus d'infos</a>
         </Link>
 
